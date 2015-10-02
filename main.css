@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    float: left;
+    width: 100%;
+    
+    background-image: url(beyonce-gif-smaller.gif);
+    background-position: top right; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1:hover {
+    font-size: 85pt;
+    margin-top: .37em;
+}
+
+h2:hover {
+    font-size: 55pt;
+    margin-bottom: -.1em;
+}
+
+
+.type{
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+}
+
+.lyrics {
+    float: left;
+    width: 40%;
+    background: #01010B;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 500px;
+    height: 3469px;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #01010B, transparent);
+    display: inline-block;
+    width: 30%;
+    height: 3469px;
+    float: left;
+
+}
+
+h1, h2, h3, h4, h5{
+    color: #f4c0d7;
+    font-family: bey, sans-serif;
+}
+
+h1{
+    font-size: 70pt;
+    text-align: left;
+    margin-bottom: -23px;
+}
+
+h2{
+    font-size: 40pt;
+    text-align: left;
+    margin-top: 0px;
+}
+
+p {
+    color: #f4c0d7;
+    font-family: bey, sans-serif;
+    font-size: 30px;
+    width: 500px;
+}
+
+.fade1 {
+    font-size: 17pt;
+    opacity: .75;
+}
+.fade2 {
+    font-size: 14pt;
+    opacity: .55;
+}
+.fade3 {
+    font-size: 11pt;
+    opacity: .25;
+}
+
+@font-face {
+    font-family: bey;
+    src: url(bey.ttf);
+}
